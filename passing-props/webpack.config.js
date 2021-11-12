@@ -1,4 +1,3 @@
-import css from "file.css";
 var HTMLWebpackPlugin = require("html-webpack-plugin");
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
   template: __dirname + "/app/index.html",
@@ -20,6 +19,9 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
     ],
+  },
+  resolve: {
+    extensions: ["", ".js", ".jsx", ".css"],
   },
   output: {
     filename: "transformed.js",

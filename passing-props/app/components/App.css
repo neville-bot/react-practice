@@ -45,3 +45,16 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+#main-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-table td,
+#main-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
