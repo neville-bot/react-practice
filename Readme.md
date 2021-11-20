@@ -1,4 +1,4 @@
-# Passing Props Practice!
-## Given two children component and a parent, pass data between the children.
+# Front-end Practice
+## Practing my front-end skills, using React/HTML/CSS/JS
 
-* Take the list of names and addresses (the data) and display it as a table in the sibling component.
+* Adding sandboxes as I go. Praciting: using forms and updating content, and passing data between sibling components in React.
