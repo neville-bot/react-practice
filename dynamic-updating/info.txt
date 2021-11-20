@@ -1,0 +1,23 @@
+Our goal is to make a card, that can be dymaically update with a JS file.
+1) update and display the new card, 
+2)we need to be able to order this list by ascending and descending order.
+2a) Must be able to sort by price and and by rating
+
+The card has current stored flight information. 
+At bottom of page is a script that contains an array of objects to be
+added to the card.
+CSS file organizing data
+Blank JS file
+
+Roughly an hour to complete the task.
+how to add to card?
+1) check if flight list has any objects in it
+2) if it does, add the object to the card, if not, display a message
+3) remvove the object from the list
+
+button adds items to flightlist from a form.
+grab the flightitem card from the DOM. we're going to use this to add the new flight item.
+grab the flight list from window, we can make this an asyncrhonous funtion checking for new data.
+create list items with the flight information.
+add them to flightitem card as children.(key value pairs)
+remove the first value and continue.
