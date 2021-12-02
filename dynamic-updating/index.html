@@ -30,13 +30,22 @@
           Click to add Flight
         </button>
       </fieldset>
+      <!-- buttons to sort by rating, and sort by price -->
+      <div class="sort" id="sorter">
+        <button class="btn-sort" type="button" onclick="sortByPrice()">
+          <span id="sortPrice" data-sort="asc">Sort By Price</span>
+        </button>
+        <button class="btn-sort" type="button" onclick="sortByRating()">
+          <span id="sortRating" data-sort="asc">Sort By Rating</span>
+        </button>
+      </div>
     </form>
     <div id="flight-items">
       <ul class="card">
         <li class="item">Flightname : Spice</li>
         <li class="item">Bangalor to Mumbai</li>
-        <li class="item">rating: 5*</li>
-        <li class="item">Price: USD $100</li>
+        <li class="item">Rating: 5*</li>
+        <li class="item">Price: Rs.100</li>
       </ul>
     </div>
     <script>
@@ -62,6 +71,9 @@
         console.log("flight list", flightList);
         addFlightToCard();
       }
+      sortByPrice();
+
+      sortByRating();
     </script>
   </body>
 </html>
